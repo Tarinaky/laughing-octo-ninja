@@ -1,0 +1,648 @@
+Microsoft (R) Build Engine version 14.0.22823.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/07/2015 21:05:52.
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" on node 1 (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+FinalizeBuildStatus:
+  Deleting file "Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+  Touching "Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ZERO_CHECK.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\accuracy.vcxproj" (3) on node 1 (default targets).
+Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\accuracy.vcxproj" (3) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\src\glfw.vcxproj" (4) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "glfw.dir\Debug\glfw.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Lib:
+  All outputs are up-to-date.
+  glfw.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\src\Debug\glfw3.lib
+FinalizeBuildStatus:
+  Deleting file "glfw.dir\Debug\glfw.tlog\unsuccessfulbuild".
+  Touching "glfw.dir\Debug\glfw.tlog\glfw.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\src\glfw.vcxproj" (default targets).
+InitializeBuildStatus:
+  Touching "accuracy.dir\Debug\accuracy.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\accuracy.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/accuracy.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/accuracy.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug accuracy.dir\Debug\accuracy.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\accuracy.exe not found or not built by the last incremental link; performing full link
+  accuracy.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\accuracy.exe
+FinalizeBuildStatus:
+  Deleting file "accuracy.dir\Debug\accuracy.tlog\unsuccessfulbuild".
+  Touching "accuracy.dir\Debug\accuracy.tlog\accuracy.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\accuracy.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\boing.vcxproj" (5) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "boing.dir\Debug\boing.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\boing.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib glu32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/examples/Debug/boing.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/examples/Debug/boing.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug boing.dir\Debug\boing.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\boing.exe not found or not built by the last incremental link; performing full link
+  boing.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\boing.exe
+FinalizeBuildStatus:
+  Deleting file "boing.dir\Debug\boing.tlog\unsuccessfulbuild".
+  Touching "boing.dir\Debug\boing.tlog\boing.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\boing.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\clipboard.vcxproj" (6) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "clipboard.dir\Debug\clipboard.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\clipboard.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/clipboard.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/clipboard.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug clipboard.dir\Debug\clipboard.obj
+  clipboard.dir\Debug\getopt.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\clipboard.exe not found or not built by the last incremental link; performing full link
+  clipboard.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\clipboard.exe
+FinalizeBuildStatus:
+  Deleting file "clipboard.dir\Debug\clipboard.tlog\unsuccessfulbuild".
+  Touching "clipboard.dir\Debug\clipboard.tlog\clipboard.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\clipboard.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\cursor.vcxproj" (7) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "cursor.dir\Debug\cursor.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\cursor.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/cursor.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/cursor.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cursor.dir\Debug\cursor.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\cursor.exe not found or not built by the last incremental link; performing full link
+  cursor.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\cursor.exe
+FinalizeBuildStatus:
+  Deleting file "cursor.dir\Debug\cursor.tlog\unsuccessfulbuild".
+  Touching "cursor.dir\Debug\cursor.tlog\cursor.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\cursor.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\cursoranim.vcxproj" (8) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "cursoranim.dir\Debug\cursoranim.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\cursoranim.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/cursoranim.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/cursoranim.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cursoranim.dir\Debug\cursoranim.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\cursoranim.exe not found or not built by the last incremental link; performing full link
+  cursoranim.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\cursoranim.exe
+FinalizeBuildStatus:
+  Deleting file "cursoranim.dir\Debug\cursoranim.tlog\unsuccessfulbuild".
+  Touching "cursoranim.dir\Debug\cursoranim.tlog\cursoranim.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\cursoranim.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\defaults.vcxproj" (9) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "defaults.dir\Debug\defaults.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\defaults.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/defaults.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/defaults.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug defaults.dir\Debug\defaults.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\defaults.exe not found or not built by the last incremental link; performing full link
+  defaults.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\defaults.exe
+FinalizeBuildStatus:
+  Deleting file "defaults.dir\Debug\defaults.tlog\unsuccessfulbuild".
+  Touching "defaults.dir\Debug\defaults.tlog\defaults.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\defaults.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\empty.vcxproj" (10) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "empty.dir\Debug\empty.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\empty.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/empty.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/empty.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug empty.dir\Debug\empty.obj
+  empty.dir\Debug\tinycthread.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\empty.exe not found or not built by the last incremental link; performing full link
+  empty.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\empty.exe
+FinalizeBuildStatus:
+  Deleting file "empty.dir\Debug\empty.tlog\unsuccessfulbuild".
+  Touching "empty.dir\Debug\empty.tlog\empty.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\empty.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\events.vcxproj" (11) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "events.dir\Debug\events.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\events.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/events.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/events.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug events.dir\Debug\events.obj
+  events.dir\Debug\getopt.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\events.exe not found or not built by the last incremental link; performing full link
+  events.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\events.exe
+FinalizeBuildStatus:
+  Deleting file "events.dir\Debug\events.tlog\unsuccessfulbuild".
+  Touching "events.dir\Debug\events.tlog\events.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\events.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\foo.vcxproj" (12) on node 1 (default targets).
+Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\foo.vcxproj" (12) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj" (13) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "kiui.dir\Debug\kiui.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\Debug\kiui.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib opengl32.lib glu32.lib opengl32.lib glu32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/kiui/Debug/kiui.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/kiui/Debug/kiui.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug /DLL kiui.dir\Debug\mkModular.obj
+  kiui.dir\Debug\mkObject.obj
+  kiui.dir\Debug\mkProto.obj
+  kiui.dir\Debug\mkRef.obj
+  kiui.dir\Debug\mkStem.obj
+  kiui.dir\Debug\mkType.obj
+  kiui.dir\Debug\mkTyped.obj
+  kiui.dir\Debug\mkColour.obj
+  kiui.dir\Debug\mkGlobalType.obj
+  kiui.dir\Debug\mkStat.obj
+  kiui.dir\Debug\mkTimer.obj
+  kiui.dir\Debug\mkUpdatable.obj
+  kiui.dir\Debug\mkString.obj
+  kiui.dir\Debug\mkImage.obj
+  kiui.dir\Debug\mkDropper.obj
+  kiui.dir\Debug\mkForm.obj
+  kiui.dir\Debug\mkHook.obj
+  kiui.dir\Debug\mkRootForm.obj
+  kiui.dir\Debug\mkWidgets.obj
+  kiui.dir\Debug\mkStyle.obj
+  kiui.dir\Debug\mkStyleParser.obj
+  kiui.dir\Debug\api.obj
+  kiui.dir\Debug\dumper.obj
+  kiui.dir\Debug\emitter.obj
+  kiui.dir\Debug\loader.obj
+  kiui.dir\Debug\parser.obj
+  kiui.dir\Debug\reader.obj
+  kiui.dir\Debug\scanner.obj
+  kiui.dir\Debug\writer.obj
+  kiui.dir\Debug\mkFrame.obj
+  kiui.dir\Debug\mkInk.obj
+  kiui.dir\Debug\mkLayer.obj
+  kiui.dir\Debug\mkStripe.obj
+  kiui.dir\Debug\mkUibox.obj
+  kiui.dir\Debug\mkButton.obj
+  kiui.dir\Debug\mkCheckbox.obj
+  kiui.dir\Debug\mkContextMenu.obj
+  kiui.dir\Debug\mkDirectory.obj
+  kiui.dir\Debug\mkInput.obj
+  kiui.dir\Debug\mkProgressBar.obj
+  kiui.dir\Debug\mkRootSheet.obj
+  kiui.dir\Debug\mkScrollbar.obj
+  kiui.dir\Debug\mkSheet.obj
+  kiui.dir\Debug\mkSlider.obj
+  kiui.dir\Debug\mkTextbox.obj
+  kiui.dir\Debug\mkTypeIn.obj
+  kiui.dir\Debug\mkValue.obj
+  kiui.dir\Debug\mkWidget.obj
+  kiui.dir\Debug\mkCollection.obj
+  kiui.dir\Debug\mkDockbar.obj
+  kiui.dir\Debug\mkDockspace.obj
+  kiui.dir\Debug\mkDropdown.obj
+  kiui.dir\Debug\mkExpandbox.obj
+  kiui.dir\Debug\mkList.obj
+  kiui.dir\Debug\mkRadioButton.obj
+  kiui.dir\Debug\mkTabber.obj
+  kiui.dir\Debug\mkTable.obj
+  kiui.dir\Debug\mkTree.obj
+  kiui.dir\Debug\mkWindow.obj
+  kiui.dir\Debug\mkController.obj
+  kiui.dir\Debug\GuillotineBinPack.obj
+  kiui.dir\Debug\Rect.obj
+  kiui.dir\Debug\SkylineBinPack.obj
+  kiui.dir\Debug\glew.obj
+  kiui.dir\Debug\nanovg.obj
+  kiui.dir\Debug\mkGlWindow.obj
+  kiui.dir\Debug\mkNanoInk.obj
+  kiui.dir\Debug\mkNanoWindow.obj
+  kiui.dir\Debug\mkUiExample.obj
+  kiui.dir\Debug\mkUiLayout.obj
+  kiui.dir\Debug\mkUiWindow.obj
+     Creating library C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/kiui/Debug/kiui.lib and object C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/kiui/Debug/kiui.exp
+mkGlWindow.obj : warning LNK4217: locally defined symbol _glewInit@0 imported in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewActiveTexture imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewBufferData imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewDeleteBuffers imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewAttachShader imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewBindAttribLocation imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewCompileShader imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewCreateProgram imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewCreateShader imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewDeleteProgram imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewDeleteShader imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewDisableVertexAttribArray imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewEnableVertexAttribArray imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewGetProgramInfoLog imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewGetProgramiv imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewGetShaderInfoLog imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewGetShaderiv imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewLinkProgram imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewShaderSource imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewStencilOpSeparate imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewUniform1i imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewUniform3fv imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewUniform4fv imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewUseProgram imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewVertexAttribPointer imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function "public: __thiscall mk::GlWindow::~GlWindow(void)" (??1GlWindow@mk@@QAE@XZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetErrorCallback referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwGetWindowSize referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwGetFramebufferSize referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetWindowUserPointer referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwGetWindowUserPointer referenced in function "public: void __thiscall <lambda_6b300456140279112b824566af99c895>::operator()(struct GLFWwindow *,double,double)const " (??R<lambda_6b300456140279112b824566af99c895>@@QBEXPAUGLFWwindow@@NN@Z) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function "public: bool __thiscall mk::GlWindow::renderFrame(void)" (?renderFrame@GlWindow@mk@@QAE_NXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetInputMode referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetCharCallback referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetMouseButtonCallback referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetCursorPosCallback referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetScrollCallback referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwGetTime referenced in function "public: bool __thiscall mk::GlWindow::renderFrame(void)" (?renderFrame@GlWindow@mk@@QAE_NXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetTime referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function "public: bool __thiscall mk::GlWindow::renderFrame(void)" (?renderFrame@GlWindow@mk@@QAE_NXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSwapInterval referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\Debug\kiui.dll : fatal error LNK1120: 21 unresolved externals [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj" (default targets) -- FAILED.
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\foo.vcxproj" (default targets) -- FAILED.
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\fsaa.vcxproj" (14) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "fsaa.dir\Debug\fsaa.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\fsaa.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/fsaa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/fsaa.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug fsaa.dir\Debug\fsaa.obj
+  fsaa.dir\Debug\getopt.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\fsaa.exe not found or not built by the last incremental link; performing full link
+  fsaa.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\fsaa.exe
+FinalizeBuildStatus:
+  Deleting file "fsaa.dir\Debug\fsaa.tlog\unsuccessfulbuild".
+  Touching "fsaa.dir\Debug\fsaa.tlog\fsaa.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\fsaa.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\gamma.vcxproj" (15) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "gamma.dir\Debug\gamma.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\gamma.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/gamma.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/gamma.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug gamma.dir\Debug\gamma.obj
+  gamma.dir\Debug\getopt.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\gamma.exe not found or not built by the last incremental link; performing full link
+  gamma.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\gamma.exe
+FinalizeBuildStatus:
+  Deleting file "gamma.dir\Debug\gamma.tlog\unsuccessfulbuild".
+  Touching "gamma.dir\Debug\gamma.tlog\gamma.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\gamma.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\gears.vcxproj" (16) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "gears.dir\Debug\gears.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\gears.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib glu32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/examples/Debug/gears.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/examples/Debug/gears.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug gears.dir\Debug\gears.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\gears.exe not found or not built by the last incremental link; performing full link
+  gears.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\gears.exe
+FinalizeBuildStatus:
+  Deleting file "gears.dir\Debug\gears.tlog\unsuccessfulbuild".
+  Touching "gears.dir\Debug\gears.tlog\gears.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\gears.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\glfwinfo.vcxproj" (17) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "glfwinfo.dir\Debug\glfwinfo.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\glfwinfo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/glfwinfo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/glfwinfo.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug glfwinfo.dir\Debug\glfwinfo.obj
+  glfwinfo.dir\Debug\getopt.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\glfwinfo.exe not found or not built by the last incremental link; performing full link
+  glfwinfo.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\glfwinfo.exe
+FinalizeBuildStatus:
+  Deleting file "glfwinfo.dir\Debug\glfwinfo.tlog\unsuccessfulbuild".
+  Touching "glfwinfo.dir\Debug\glfwinfo.tlog\glfwinfo.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\glfwinfo.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\heightmap.vcxproj" (18) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "heightmap.dir\Debug\heightmap.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\heightmap.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib glu32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/examples/Debug/heightmap.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/examples/Debug/heightmap.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug heightmap.dir\Debug\heightmap.obj
+  heightmap.dir\Debug\glad.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\heightmap.exe not found or not built by the last incremental link; performing full link
+  heightmap.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\heightmap.exe
+FinalizeBuildStatus:
+  Deleting file "heightmap.dir\Debug\heightmap.tlog\unsuccessfulbuild".
+  Touching "heightmap.dir\Debug\heightmap.tlog\heightmap.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\heightmap.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\iconify.vcxproj" (19) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "iconify.dir\Debug\iconify.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\iconify.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/iconify.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/iconify.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug iconify.dir\Debug\iconify.obj
+  iconify.dir\Debug\getopt.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\iconify.exe not found or not built by the last incremental link; performing full link
+  iconify.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\iconify.exe
+FinalizeBuildStatus:
+  Deleting file "iconify.dir\Debug\iconify.tlog\unsuccessfulbuild".
+  Touching "iconify.dir\Debug\iconify.tlog\iconify.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\iconify.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\joysticks.vcxproj" (20) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "joysticks.dir\Debug\joysticks.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\joysticks.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/joysticks.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/joysticks.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug joysticks.dir\Debug\joysticks.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\joysticks.exe not found or not built by the last incremental link; performing full link
+  joysticks.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\joysticks.exe
+FinalizeBuildStatus:
+  Deleting file "joysticks.dir\Debug\joysticks.tlog\unsuccessfulbuild".
+  Touching "joysticks.dir\Debug\joysticks.tlog\joysticks.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\joysticks.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\monitors.vcxproj" (21) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "monitors.dir\Debug\monitors.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\monitors.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/monitors.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/monitors.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug monitors.dir\Debug\monitors.obj
+  monitors.dir\Debug\getopt.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\monitors.exe not found or not built by the last incremental link; performing full link
+  monitors.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\monitors.exe
+FinalizeBuildStatus:
+  Deleting file "monitors.dir\Debug\monitors.tlog\unsuccessfulbuild".
+  Touching "monitors.dir\Debug\monitors.tlog\monitors.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\monitors.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\particles.vcxproj" (22) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "particles.dir\Debug\particles.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\particles.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib glu32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/examples/Debug/particles.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/examples/Debug/particles.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug particles.dir\Debug\particles.obj
+  particles.dir\Debug\tinycthread.obj
+  particles.dir\Debug\getopt.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\particles.exe not found or not built by the last incremental link; performing full link
+  particles.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\particles.exe
+FinalizeBuildStatus:
+  Deleting file "particles.dir\Debug\particles.tlog\unsuccessfulbuild".
+  Touching "particles.dir\Debug\particles.tlog\particles.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\particles.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\peter.vcxproj" (23) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "peter.dir\Debug\peter.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\peter.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/peter.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/peter.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug peter.dir\Debug\peter.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\peter.exe not found or not built by the last incremental link; performing full link
+  peter.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\peter.exe
+FinalizeBuildStatus:
+  Deleting file "peter.dir\Debug\peter.tlog\unsuccessfulbuild".
+  Touching "peter.dir\Debug\peter.tlog\peter.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\peter.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\reopen.vcxproj" (24) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "reopen.dir\Debug\reopen.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\reopen.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/reopen.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/reopen.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug reopen.dir\Debug\reopen.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\reopen.exe not found or not built by the last incremental link; performing full link
+  reopen.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\reopen.exe
+FinalizeBuildStatus:
+  Deleting file "reopen.dir\Debug\reopen.tlog\unsuccessfulbuild".
+  Touching "reopen.dir\Debug\reopen.tlog\reopen.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\reopen.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\sharing.vcxproj" (25) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "sharing.dir\Debug\sharing.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\sharing.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/sharing.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/sharing.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug sharing.dir\Debug\sharing.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\sharing.exe not found or not built by the last incremental link; performing full link
+  sharing.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\sharing.exe
+FinalizeBuildStatus:
+  Deleting file "sharing.dir\Debug\sharing.tlog\unsuccessfulbuild".
+  Touching "sharing.dir\Debug\sharing.tlog\sharing.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\sharing.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\simple.vcxproj" (26) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "simple.dir\Debug\simple.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\simple.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib glu32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/examples/Debug/simple.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/examples/Debug/simple.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug simple.dir\Debug\simple.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\simple.exe not found or not built by the last incremental link; performing full link
+  simple.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\simple.exe
+FinalizeBuildStatus:
+  Deleting file "simple.dir\Debug\simple.tlog\unsuccessfulbuild".
+  Touching "simple.dir\Debug\simple.tlog\simple.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\simple.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\splitview.vcxproj" (27) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "splitview.dir\Debug\splitview.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\splitview.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib glu32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/examples/Debug/splitview.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/examples/Debug/splitview.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug splitview.dir\Debug\splitview.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\splitview.exe not found or not built by the last incremental link; performing full link
+  splitview.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\splitview.exe
+FinalizeBuildStatus:
+  Deleting file "splitview.dir\Debug\splitview.tlog\unsuccessfulbuild".
+  Touching "splitview.dir\Debug\splitview.tlog\splitview.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\splitview.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\tearing.vcxproj" (28) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "tearing.dir\Debug\tearing.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\tearing.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/tearing.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/tearing.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug tearing.dir\Debug\tearing.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\tearing.exe not found or not built by the last incremental link; performing full link
+  tearing.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\tearing.exe
+FinalizeBuildStatus:
+  Deleting file "tearing.dir\Debug\tearing.tlog\unsuccessfulbuild".
+  Touching "tearing.dir\Debug\tearing.tlog\tearing.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\tearing.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\threads.vcxproj" (29) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "threads.dir\Debug\threads.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\threads.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/threads.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/threads.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug threads.dir\Debug\threads.obj
+  threads.dir\Debug\tinycthread.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\threads.exe not found or not built by the last incremental link; performing full link
+  threads.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\threads.exe
+FinalizeBuildStatus:
+  Deleting file "threads.dir\Debug\threads.tlog\unsuccessfulbuild".
+  Touching "threads.dir\Debug\threads.tlog\threads.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\threads.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\title.vcxproj" (30) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "title.dir\Debug\title.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\title.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/title.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/title.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug title.dir\Debug\title.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\title.exe not found or not built by the last incremental link; performing full link
+  title.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\title.exe
+FinalizeBuildStatus:
+  Deleting file "title.dir\Debug\title.tlog\unsuccessfulbuild".
+  Touching "title.dir\Debug\title.tlog\title.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\title.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\wave.vcxproj" (31) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "wave.dir\Debug\wave.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\wave.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib glu32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/examples/Debug/wave.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/examples/Debug/wave.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug wave.dir\Debug\wave.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\wave.exe not found or not built by the last incremental link; performing full link
+  wave.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\Debug\wave.exe
+FinalizeBuildStatus:
+  Deleting file "wave.dir\Debug\wave.tlog\unsuccessfulbuild".
+  Touching "wave.dir\Debug\wave.tlog\wave.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\examples\wave.vcxproj" (default targets).
+Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (1) is building "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\windows.vcxproj" (32) on node 1 (default targets).
+InitializeBuildStatus:
+  Touching "windows.dir\Debug\windows.tlog\unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\windows.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\src\Debug\glfw3.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/windows.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/Tarinaky/git/kiui_fail_tc/build/glfw-3.1.1/tests/Debug/windows.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug windows.dir\Debug\windows.obj
+  LINK : C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\windows.exe not found or not built by the last incremental link; performing full link
+  windows.vcxproj -> C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\Debug\windows.exe
+FinalizeBuildStatus:
+  Deleting file "windows.dir\Debug\windows.tlog\unsuccessfulbuild".
+  Touching "windows.dir\Debug\windows.tlog\windows.lastbuildstate".
+Done Building Project "C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\glfw-3.1.1\tests\windows.vcxproj" (default targets).
+Done Building Project "c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\foo.vcxproj" (default target) (12) ->
+"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj" (default target) (13) ->
+(Link target) -> 
+  mkGlWindow.obj : warning LNK4217: locally defined symbol _glewInit@0 imported in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewActiveTexture imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewBufferData imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewDeleteBuffers imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewAttachShader imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewBindAttribLocation imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewCompileShader imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewCreateProgram imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewCreateShader imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewDeleteProgram imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewDeleteShader imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewDisableVertexAttribArray imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewEnableVertexAttribArray imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewGetProgramInfoLog imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewGetProgramiv imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewGetShaderInfoLog imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewGetShaderiv imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewLinkProgram imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewShaderSource imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewStencilOpSeparate imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewUniform1i imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewUniform3fv imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewUniform4fv imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewUseProgram imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkNanoWindow.obj : warning LNK4049: locally defined symbol ___glewVertexAttribPointer imported [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+
+
+"c:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\ALL_BUILD.vcxproj" (default target) (1) ->
+"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\foo.vcxproj" (default target) (12) ->
+"C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj" (default target) (13) ->
+(Link target) -> 
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function "public: __thiscall mk::GlWindow::~GlWindow(void)" (??1GlWindow@mk@@QAE@XZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetErrorCallback referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwGetWindowSize referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwGetFramebufferSize referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetWindowUserPointer referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwGetWindowUserPointer referenced in function "public: void __thiscall <lambda_6b300456140279112b824566af99c895>::operator()(struct GLFWwindow *,double,double)const " (??R<lambda_6b300456140279112b824566af99c895>@@QBEXPAUGLFWwindow@@NN@Z) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function "public: bool __thiscall mk::GlWindow::renderFrame(void)" (?renderFrame@GlWindow@mk@@QAE_NXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetInputMode referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetCharCallback referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetMouseButtonCallback referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetCursorPosCallback referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetScrollCallback referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwGetTime referenced in function "public: bool __thiscall mk::GlWindow::renderFrame(void)" (?renderFrame@GlWindow@mk@@QAE_NXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSetTime referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function "public: bool __thiscall mk::GlWindow::renderFrame(void)" (?renderFrame@GlWindow@mk@@QAE_NXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  mkGlWindow.obj : error LNK2019: unresolved external symbol _glfwSwapInterval referenced in function "public: void __thiscall mk::GlWindow::initContext(void)" (?initContext@GlWindow@mk@@QAEXXZ) [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+  C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\Debug\kiui.dll : fatal error LNK1120: 21 unresolved externals [C:\cygwin64\home\Tarinaky\git\kiui_fail_tc\build\kiui\kiui.vcxproj]
+
+    28 Warning(s)
+    22 Error(s)
+
+Time Elapsed 00:00:17.15
